@@ -5,7 +5,7 @@ print hello
 int _stdcall WinMain(HINSTANCE thisinstance, HINSTANCE previnstance,LPSTR lpstr,int cmdshow){
     char str[100];
     sprintf(str,"Hello %d",10);
-    MessageBox(0,str,"TITLE",0);
+    MessageBox(0,str,"TITLE",MB_OK);
 }
 */
 
