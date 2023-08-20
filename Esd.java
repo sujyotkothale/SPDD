@@ -65,3 +65,15 @@ public class Esd {
         }
     }
 }
+/*
+Input format
+0 STUDENT START 0
+0 - ENTRY A,SAVE
+0 - EXTRN SOLN,DELTA
+0 - DC A(A+10)
+4 SAVE DC 12C'0
+8 A DC A(DELTA)
+12 - DC A(STUDENT-SOLN)
+16 - END –
+
+*/
